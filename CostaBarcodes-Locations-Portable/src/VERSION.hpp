@@ -1,0 +1,6 @@
+﻿#pragma once
+
+#define CB_MAJOR_VERSION "0"
+#define CB_MINOR_VERSION "0"
+
+#define CB_VERSION CB_MAJOR_VERSION "." CB_MINOR_VERSION

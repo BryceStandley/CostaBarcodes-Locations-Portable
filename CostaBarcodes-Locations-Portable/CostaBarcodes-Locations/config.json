@@ -1,0 +1,10 @@
+{
+	"version" : 
+		{
+			"major" : "0",
+			"minor" : "0"
+		},
+	"imageStore" : "C:/Local Dev/CostaBarcodes-Locations-Portable/CostaBarcodes-Locations-Portable/CostaBarcodes-Locations/images",
+	"locationStore" : "C:/Local Dev/CostaBarcodes-Locations-Portable/CostaBarcodes-Locations-Portable/CostaBarcodes-Locations/locations.json",
+	"output" : "C:/Local Dev/CostaBarcodes-Locations-Portable/CostaBarcodes-Locations-Portable/CostaBarcodes-Locations/output"
+}
