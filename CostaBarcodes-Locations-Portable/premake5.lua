@@ -16,11 +16,19 @@ project "CostaBarcodes-Locations-Portable"
       "../Walnut/Walnut/src",
 
       "%{IncludeDir.VulkanSDK}",
+      "../vendor",
+      "../vendor/zxing/include",
+   }
+   
+   libdirs
+   {
+        "../vendor/zxing/lib",
    }
 
    links
    {
-       "Walnut"
+       "Walnut",
+       "ZXing.lib"
    }
 
    targetdir ("../bin/" .. outputdir .. "/%{prj.name}")
